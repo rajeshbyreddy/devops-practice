@@ -13,3 +13,7 @@ def login():
 @app.get("/signup")
 def signup():
     return "this is signup page"
+
+@app.get("/dashboard")
+def dashbaord():
+    return "this is dashbaord page"
